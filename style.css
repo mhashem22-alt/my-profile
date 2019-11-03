@@ -1,0 +1,57 @@
+h1 {font-size: 50px; color: #E98A15}
+h2, h3, h4 {font-family: Times; color: #E98A15; font-size: 34px; font-weight: 600}
+body{text-align: center;
+font-family: Helvetica;
+background-color: #7B2D26}
+p{font-size: 24px;
+color: white; font-weight: 300}
+a{color: #F67E7D;font-size: 19px; transition: 0.3s ease}
+a:hover {color: #FFE74C}
+    div {margin: 40px auto;
+    box-shadow: 0px 0px 40px coral;
+    padding: 60px;
+    border-radius: 6px;}
+  img{border-radius: 50%
+ }
+div {width: 800px}
+
+button {font: bold 11px Arial;
+  text-decoration: none;
+  background-color: #EEEEEE;
+  color: #333333;
+  padding: 4px 6px 4px 6px;
+  border-top: 4px solid #CCCCCC;
+  border-right: 4px solid #333333;
+  border-bottom: 4px solid #333333;
+  border-left: 4px solid #CCCCCC;}
+
+  #bruh ul {list-style: none;
+  }
+  #bruh li {display: inline;
+  	border-spacing: 200px;
+  	margin: 10px;
+  	align-self: center;
+  	padding: 40px
+ width: 200px;}
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+
